@@ -3,48 +3,66 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
-  
+
+div {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    padding:40px;
+    border: 1px solid #ddd;
+}
+
 h1 {
-    font-size: xx-large;
-    color: #142585;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
 }
-  
+
 label {
-    font-size: 1.2em;
-    color: #142585;
     display: block;
-    margin-top: 20px;
-  }
-  
-h1:hover {
-    color: #525fad;
+    color: #555;
+    margin-bottom: 5px;
 }
-  
+
 input {
-	height: 18px;
+    width: 100%;
     padding: 10px;
-    font-size: large;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
 }
-  
+
 button {
-    height: 40px;
-    font-size: large;
+    background-color: rgb(160, 54, 160);
+    color: #fff;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
-	background-color:  #142585;
-    color: white;
-    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 button:hover {
-    background-color: #525fad;
+    background-color: rgb(202, 104, 202);
 }
 
-p {
-    color: grey;
-    font-size: large;
-    padding-right: 20px;
+#message {
+    text-align: center;
+    margin-top: 20px;
 }
+
+@media (max-width: 500px) {
+    div {
+        background-color: #ffffff;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 50px auto;
+        border: 1px solid #ddd;
+    }
+  }
+  
