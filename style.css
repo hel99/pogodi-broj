@@ -43,14 +43,19 @@ button {
     width: 100%;
     border-radius: 10px;
 }
-
+/*
 button:hover {
     background-color: rgb(202, 104, 202);
 }
-
+*/
 #message {
     text-align: center;
     margin-top: 20px;
+}
+
+#brPokusaja {
+    display: flex;
+    
 }
 
 @media (max-width: 500px) {
